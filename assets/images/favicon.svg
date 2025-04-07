@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Ship Hull -->
+  <path d="M8,20 C12,22 20,22 24,20 L25,22 C20,24 12,24 7,22 Z" fill="#2a9d8f"/>
+  
+  <!-- Ship Deck -->
+  <path d="M10,19 L22,19 L24,20 C20,22 12,22 8,20 Z" fill="#e9c46a"/>
+  
+  <!-- Ship Mast -->
+  <rect x="15" y="10" width="2" height="9" fill="#0d1b2a"/>
+  
+  <!-- Ship Sail -->
+  <path d="M17,10 C20,12 20,16 17,19 Z" fill="#f4a261"/>
+  
+  <!-- Jolly Roger Flag -->
+  <rect x="13" y="10" width="4" height="3" fill="#0d1b2a"/>
+  <circle cx="15" cy="11.5" r="1" fill="#ffffff"/>
+  <path d="M14,13 L16,13" stroke="#ffffff" stroke-width="0.5"/>
+  
+  <!-- Waves -->
+  <path d="M4,22 C6,21 8,23 10,22 C12,21 14,23 16,22 C18,21 20,23 22,22 C24,21 26,23 28,22" fill="none" stroke="#1a3a5f" stroke-width="0.7"/>
+  
+  <!-- Computer/Hacker Element -->
+  <rect x="12" y="15" width="3" height="2" rx="0.5" fill="#1a3a5f"/>
+  <rect x="12.3" y="15.3" width="2.4" height="1.4" fill="#2a9d8f"/>
+  <rect x="17" y="15" width="3" height="2" rx="0.5" fill="#1a3a5f"/>
+  <rect x="17.3" y="15.3" width="2.4" height="1.4" fill="#2a9d8f"/>
+</svg>
