@@ -472,7 +472,7 @@ ul {
 }
 
 .site-footer .footer-content .footer-logo-img {
-  max-width: 180px;
+  max-width: 250px;
   height: auto;
 }
 
@@ -480,7 +480,7 @@ ul {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .site-footer .footer-content .footer-info {

@@ -121,7 +121,6 @@ ul {
 .site-header .main-nav ul {
   display: flex;
   gap: 1.5rem;
-  align-items: center;
 }
 
 .site-header .main-nav ul li a {
@@ -465,14 +464,13 @@ ul {
 }
 
 .site-footer .footer-content .footer-logo {
-  flex: 1;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .site-footer .footer-content .footer-logo-img {
-  max-width: 250px;
+  max-width: 180px;
   height: auto;
 }
 
@@ -480,7 +478,7 @@ ul {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .site-footer .footer-content .footer-info {
