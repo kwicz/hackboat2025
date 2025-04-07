@@ -121,6 +121,7 @@ ul {
 .site-header .main-nav ul {
   display: flex;
   gap: 1.5rem;
+  align-items: center;
 }
 
 .site-header .main-nav ul li a {
@@ -464,9 +465,10 @@ ul {
 }
 
 .site-footer .footer-content .footer-logo {
-  flex: 0 0 auto;
+  flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .site-footer .footer-content .footer-logo-img {
