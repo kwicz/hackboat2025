@@ -21,10 +21,9 @@
 title: Hackboat 2025
 email: hackboat@bsidespdx.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Hackboat 2025 - An infosec unconference on the high seas. Join us for a one-day
-  pirate-themed infosec unconference on a boat in Portland, OR on June 6th, 2025.
-baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+  Hackboat 2025 - An infosec unconference on the high seas.
+baseurl: '/hackboat2025' # the subpath of your site, e.g. /blog
+url: 'https://kwicz.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hackboatpdx
 twitter_url: https://twitter.com/hackboatpdx
 phone: (503) 560 3551
