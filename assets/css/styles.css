@@ -18,6 +18,7 @@
   --bioluminescent-blue: #00bfff;
   --dark-gray: #121212;
   --light-gray: #f0f0f0;
+
   --white: #ffffff;
 }
 
@@ -402,15 +403,6 @@ ul {
 .activities .activity-card .activity-icon svg {
   fill: var(--bioluminescent-green);
   transition: transform 0.3s ease;
-}
-
-.activities .activity-card .activity-icon svg.pufferfish,
-.activities .activity-card .activity-icon svg.octopus,
-.activities .activity-card .activity-icon svg.seagull,
-.activities .activity-card .activity-icon svg.squid,
-.activities .activity-card .activity-icon svg.dolphin,
-.activities .activity-card .activity-icon svg.food {
-  /* fill: var(--bioluminescent-green); */
 }
 
 .activities .activity-card h3 {
