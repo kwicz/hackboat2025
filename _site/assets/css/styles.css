@@ -100,6 +100,21 @@ ul {
   color: var(--white);
 }
 
+.page-title {
+  text-align: left;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.page-title:after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: var(--bioluminescent-green);
+  /* margin: 0.5rem auto; */
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 2rem;

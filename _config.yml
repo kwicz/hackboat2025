@@ -33,6 +33,7 @@ address: 7600 N Interstate Ave Ste. 210, Portland, OR USA
 theme: minima
 plugins:
   - jekyll-feed
+destination: docs
 
 # Custom settings
 event_date: June 6th, 2025
