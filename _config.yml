@@ -22,7 +22,7 @@ title: Hackboat 2025
 email: hackboat@bsidespdx.org
 description: >- # this means to ignore newlines until "baseurl:"
   Hackboat 2025 - An infosec unconference on the high seas.
-baseurl: '' # the subpath of your site, e.g. /blog
+baseurl: '/hackboat2025' # the subpath of your site, e.g. /blog
 url: 'https://kwicz.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hackboatpdx
 twitter_url: https://twitter.com/hackboatpdx
@@ -37,12 +37,6 @@ plugins:
 # Custom settings
 event_date: June 6th, 2025
 event_location: 110 SE Caruthers St, Portland, Oregon, 97214 (by OMSI)
-include:
-  - _pages
-collections:
-  pages:
-    output: true
-    permalink: /:path/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
