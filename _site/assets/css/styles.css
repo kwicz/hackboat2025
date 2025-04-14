@@ -91,6 +91,11 @@ ul {
   padding: 0 15px;
 }
 
+.dark-background {
+  background-color: var(--deep-sea-blue);
+  color: var(--white);
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 2rem;
@@ -447,6 +452,21 @@ ul {
 .registration .registration-button-container .cta-button {
   font-size: 1.2rem;
   padding: 1rem 2rem;
+}
+
+/* FAQ */
+.faq-section {
+  margin-bottom: 30px;
+}
+.faq-question {
+  font-weight: bold;
+}
+.faq-answer {
+  margin-left: 20px;
+}
+.important {
+  font-weight: bold;
+  color: red;
 }
 
 /* Footer */

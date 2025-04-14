@@ -37,6 +37,12 @@ plugins:
 # Custom settings
 event_date: June 6th, 2025
 event_location: 110 SE Caruthers St, Portland, Oregon, 97214 (by OMSI)
+include:
+  - _pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
