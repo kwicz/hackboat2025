@@ -90,7 +90,7 @@ ul {
 }
 
 .site-content {
-  padding: 10em 0 1em;
+  padding: 100px 0 1em;
 }
 
 .container {
@@ -137,7 +137,7 @@ ul {
 
 /* Header */
 .site-header {
-  background-color: var(--deep-sea-blue); /* Deep sea blue with opacity */
+  background-color: var(--deep-sea-blue);
   padding: 1rem 0;
   position: fixed;
   width: 100%;
@@ -191,7 +191,6 @@ ul {
 
 /* Hero Section */
 .hero {
-  height: 100vh;
   background-color: var(--deep-sea-blue);
   color: var(--white);
   position: relative;
@@ -364,6 +363,7 @@ ul {
   padding: 5rem 0;
   background-color: var(--deep-sea-blue);
   color: var(--white);
+  scroll-margin-top: 60px;
 }
 
 .about .section-title {
@@ -465,7 +465,7 @@ ul {
 }
 
 .site-footer .footer-content .footer-logo-img {
-  max-width: 350px;
+  max-width: 300px;
   height: auto;
 }
 
@@ -646,6 +646,11 @@ ul {
 }
 
 /* Media Query for smaller screens */
+@media (min-width: 991px) {
+  .mobile-only {
+    display: none;
+  }
+}
 @media (max-width: 992px) {
   .hamburger {
     display: block; /* Show on smaller screens */
